@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray for a soft background */
+    color: #343a40; /* Dark gray text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h1 {
+    margin: 20px 0;
+    padding: 10px;
+    color: #007bff; /* Bootstrap primary color */
+    background-color: #e9ecef; /* Light gray header background */
+    border-radius: 8px;
+}
+
+/* Output Container Styling */
+#output {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff; /* White background for contrast */
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f1f3f5; /* Slightly darker gray for items */
+    border-radius: 4px;
+    border: 1px solid #e9ecef; /* Light border for each item */
+}
+
+/* Hover Effect for List Items */
+li:hover {
+    background-color: #e2e6ea; /* Slightly darker on hover */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
